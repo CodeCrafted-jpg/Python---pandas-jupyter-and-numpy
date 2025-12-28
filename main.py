@@ -18,7 +18,7 @@ def main():
     data = {
         "Name": ["Sayan", "Amit", "Riya", "Neha"],
         "Age": [20, 22, 21, 23],
-        "Score": [85, 90, 78, 88]
+        "Score": [95, 90, 78, 88]
     }
 
     df = pd.DataFrame(data)
