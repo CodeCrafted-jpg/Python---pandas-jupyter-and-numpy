@@ -15,3 +15,4 @@ water_pokemon=df[df["type_1"]=="Water"]
 #print(attacking_pokemon)
 #print (fast_pokemon)
 print(water_pokemon)
+
