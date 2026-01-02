@@ -2,10 +2,10 @@ import pandas as pd
 
 df = pd.read_csv("pokemon.csv", index_col="name")
 
-user_query = input("Enter a Pokémon name: ").strip().capitalize() # Capitalize to match index
+user_query = input("Enter a Pokémon name: ").strip().capitalize()
 
 try:
-    # .loc looks at the Index specifically
+   
     pokemon_data = df.loc[user_query]
     
     t1 = pokemon_data['type_1']
